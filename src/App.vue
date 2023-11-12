@@ -12,7 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
     <nav class="side-nav">
       <div>
-          <RouterLink to="/" class="menu" active-class="active-route">Home</RouterLink>
+          <RouterLink :to="{name: 'home'}" class="menu" active-class="active-route">Home</RouterLink>
           <RouterLink :to="{name: 'student'}" class="menu" active-class="active-route">Student</RouterLink>
           <RouterLink :to="{name: 'product'}" class="menu" active-class="active-route">Product</RouterLink>
       </div>
@@ -70,7 +70,7 @@ aside {
   padding: 0 2rem;
   font-size: 1.5rem;
   text-decoration: none;
-  transition: padding 300ms ease;
+  transition: padding 200ms ease-in-out;
 }
 .side-nav .menu:last-child{
   border: none;
@@ -80,6 +80,7 @@ aside {
 }
 .side-nav .menu.active-route{
   padding-left: 3rem;
+  color: red;
 }
 .side-nav button{
   background-color: transparent;

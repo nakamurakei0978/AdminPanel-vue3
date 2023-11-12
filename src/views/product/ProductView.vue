@@ -1,3 +1,6 @@
+<script setup>
+import ContentHeader from '../../components/ContentHeader.vue';
+</script>
 <template>
-    Product
+    <ContentHeader :title="'Product View'" />
 </template>

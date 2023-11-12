@@ -4,10 +4,10 @@ import ContentHeader from '../../components/ContentHeader.vue';
 </script>
 
 <template>
-    <ContentHeader :title="'Add student'" :button-name="'Back'" :route-name="'back'" />
-    <main>
-
-    </main>
+  <ContentHeader :title="'Add student'" :button-name="'Back'" :route-name="'back'" />
+  <main>
+    Hello
+  </main>
 </template>
 <style scoped>
 

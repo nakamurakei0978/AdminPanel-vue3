@@ -1,0 +1,23 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "nakamura kei",
+        "gender": "male",
+        "email": "nakamurakei@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "john son",
+        "gender": "male",
+        "email": "johnson@gmail.com"
+      },
+      {
+        "id": 3,
+        "name": "yu mi",
+        "gender": "female",
+        "email": "yumi@gmail.com"
+      }
+    ]
+}
+  

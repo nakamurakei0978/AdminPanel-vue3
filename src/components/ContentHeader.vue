@@ -7,14 +7,10 @@ const props = defineProps({
     routeName: String
 })
 
-console.log(props);
 
 const router = useRouter();
 const goToRoute = (r) => {
-    if(r === 'back'){
-        router.go(-1)
-    }
-    router.push({ name: r});
+  r === 'back' ? router.go(-1) : router.push({ name: r })
 };
 </script>
 
@@ -26,7 +22,7 @@ const goToRoute = (r) => {
 </template>
 
 <style scoped>
-@import '../assets/bootstrap.min.css';
+@import 'bootstrap';
 
 header{
   background-color: beige;
